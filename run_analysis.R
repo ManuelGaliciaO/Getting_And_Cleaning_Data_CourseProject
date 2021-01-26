@@ -29,6 +29,8 @@ library(data.table)
 #//////////////////////////////////////////////////////////////////////////////
 
 # First we create a temporary file to read the files we need
+# The script should be able to run without a problem as the files are downloaded directly
+# from the provided link
 
 fileUrl <-  "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 temp <- tempfile()
